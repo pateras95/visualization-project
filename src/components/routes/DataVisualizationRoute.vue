@@ -8,10 +8,10 @@
                 περαιτέρω πληροφοριών.
             </div>
             <v-zoomer style="width: 75%; height: auto; border: solid 1px silver; margin: 0 auto;">
-                <img
+                <!-- <img
                     src="@/assets/images/data-visual.jpg"
                     style="object-fit: contain; width: 100%; height: 100%;"
-                >
+                > -->
             </v-zoomer>
         </div>
     </div>

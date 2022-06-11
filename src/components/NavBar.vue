@@ -27,7 +27,7 @@
                     <v-avatar
                         size="128"
                     >
-                        <img src="@/assets/images/me.jpg">
+                        <!-- <img src="@/assets/images/me.jpg"> -->
                     </v-avatar>
                     <div class="mt-3">Konstanstinos</div>
                     <dir class="mt-n1">Kalyvas</dir>
@@ -87,7 +87,7 @@
 
 <style scoped>
 .github-button{
-    background: url("../assets/images/github-box.png") no-repeat scroll 0 0 transparent;
+    background: url("../assets/github-box.png") no-repeat scroll 0 0 transparent;
     cursor: pointer;
     font-weight: bold;
     height: 32px;
@@ -95,7 +95,7 @@
 }
 
 .linkedin-button{
-    background: url("../assets/images/linkedin.png") no-repeat scroll 0 0 transparent;
+    background: url("../assets/linkedin.png") no-repeat scroll 0 0 transparent;
     cursor: pointer;
     font-weight: bold;
     height: 32px;
