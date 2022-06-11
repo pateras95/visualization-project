@@ -5,7 +5,6 @@
             dark
         >
             <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-            
             <v-spacer />
 
             <a href="https://github.com/pateras95" target="_blank">
@@ -24,13 +23,9 @@
         >
             <template v-slot:prepend>
                 <div class="nav-top-container">
-                    <v-avatar
-                        size="128"
-                    >
-                        <!-- <img src="@/assets/images/me.jpg"> -->
-                    </v-avatar>
-                    <div class="mt-3">Konstanstinos</div>
-                    <dir class="mt-n1">Kalyvas</dir>
+                    <img class="avatar-img" src="@/assets/data-visualization.png">
+                    <div class="mt-3">Visualization</div>
+                    <dir class="mt-n1">Project</dir>
                 </div>
             </template>
 
@@ -45,22 +40,22 @@
                 >
                     <router-link to="/" style="text-decoration: none; color: inherit;">
                         <v-list-item class="nav-bar-text">
-                            <v-list-item-title><v-icon class="mr-5">mdi-folder</v-icon>Home</v-list-item-title>
+                            <v-list-item-title><v-icon class="mr-5">mdi-home</v-icon>Home</v-list-item-title>
                         </v-list-item>
                     </router-link>
                     <router-link to="/about-me" style="text-decoration: none; color: inherit;">
                         <v-list-item class="nav-bar-text">
-                            <v-list-item-title><v-icon class="mr-5">mdi-folder</v-icon>About Me</v-list-item-title>
+                            <v-list-item-title><v-icon class="mr-5">mdi-account-multiple</v-icon>About The Team</v-list-item-title>
                         </v-list-item>
                     </router-link>
                     <router-link to="/resume" style="text-decoration: none; color: inherit;">
                         <v-list-item class="nav-bar-text">
-                            <v-list-item-title><v-icon class="mr-5">mdi-folder</v-icon>Resume</v-list-item-title>
+                            <v-list-item-title><v-icon class="mr-5">mdi-folder-download</v-icon>Datashets.csv </v-list-item-title>
                         </v-list-item>
                     </router-link>
                     <router-link to="/data-visualization" style="text-decoration: none; color: inherit;">
                         <v-list-item class="nav-bar-text">
-                            <v-list-item-title><v-icon class="mr-5">mdi-folder</v-icon>Data Visualization</v-list-item-title>
+                            <v-list-item-title><v-icon class="mr-5">mdi-chart-histogram</v-icon>Data Visualization</v-list-item-title>
                         </v-list-item>
                     </router-link>
                 </v-list-item-group>
@@ -92,6 +87,11 @@
     font-weight: bold;
     height: 32px;
     width: 75px;
+}
+
+.avatar-img{
+    width: 200px;
+    height: auto;
 }
 
 .linkedin-button{
