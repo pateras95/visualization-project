@@ -1,25 +1,18 @@
 <template>
     <div>
-        <div class="header-text">Visualizing Women’s Economic Rights Around the World</div>
-        <div class="text-center">
-            <div class="simple-text">
-                Στο παρακάτω διάγραμμα φαίνεται σε απεικόνιση η κατανομή των κοινωνικών δικαιωμάτων των γυναίκων σε όλο
-                τον κόσμο. Μπορείτε με την χρήση της ροδέλας ή του PinchZoom να να κάνετε Zoom στον χάρτη για παρατήρηση 
-                περαιτέρω πληροφοριών.
-            </div>
-            <v-zoomer style="width: 75%; height: auto; border: solid 1px silver; margin: 0 auto;">
-                <!-- <img
-                    src="@/assets/images/data-visual.jpg"
-                    style="object-fit: contain; width: 100%; height: 100%;"
-                > -->
-            </v-zoomer>
-        </div>
+        <div class="header-text">Visualizing </div>
+        <div class='tableauPlaceholder' style='width: 1600px; height: 1227px;'><object class='tableauViz' width='1600' height='1227' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-uk-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;testdi' /><param name='name' value='Schooladaptability&#47;Adaptabilitydashboard&#47;01b41029-1453-4370-8882-acda26173252&#47;d725a342-463f-4c83-9422-922385ceb702' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
     </div>
 </template>
 
 <script>
     export default {
-        name: "DataVisualization"
+        name: "DataVisualization",
+        metaInfo: {
+            script: [
+                { src: 'https://prod-uk-a.online.tableau.com/javascripts/api/viz_v1.js', async: true, defer: true }
+            ],
+        }
     }
 </script>
 
