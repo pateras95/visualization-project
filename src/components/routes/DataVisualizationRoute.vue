@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="header-text">Visualizing </div>
-        <div class='tableauPlaceholder' style='width: 1600px; height: 1227px;'><object class='tableauViz' width='1600' height='1227' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-uk-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;testdi' /><param name='name' value='Schooladaptability&#47;Adaptabilitydashboard&#47;01b41029-1453-4370-8882-acda26173252&#47;d725a342-463f-4c83-9422-922385ceb702' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
+        <iframe src="https://prod-uk-a.online.tableau.com/t/testdi/views/Schooladaptability/Adaptabilitydashboard/1243eebe-3eb8-42cb-9760-e0c9957fa642/fedfccf1-b8ee-4c92-8dbf-43bc3566ca0a?:display_count=n&:showVizHome=n&:origin=viz_share_link:embed=yes" width="1920" height="1080"></iframe>
     </div>
 </template>
 
