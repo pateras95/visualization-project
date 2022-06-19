@@ -8,14 +8,13 @@
             </div>
             <div class="badges-container">
                 <div class="row-badges-container">
-                    <div class="badge-base LI-profile-badge m-5" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="konstantinos-kalivas-45552018a" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/konstantinos-kalivas-45552018a?trk=profile-badge" /></div>
-                    <div class="badge-base LI-profile-badge m-5" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="konstantinos-kalivas-45552018a" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/nikos-charitos-497774129?trk=profile-badge" /></div>
+                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="konstantinos-kalivas-45552018a" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/konstantinos-kalivas-45552018a?trk=profile-badge"></a></div>
+                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="nikos-charitos-497774129" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/nikos-charitos-497774129?trk=profile-badge"></a></div>
                 </div>
                 <div class="row-badges-container">
-                    <div class="badge-base LI-profile-badge m-5" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="konstantinos-kalivas-45552018a" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/konstantinos-kalivas-45552018a?trk=profile-badge" /></div>
-                    <div class="badge-base LI-profile-badge m-5" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="konstantinos-kalivas-45552018a" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/konstantinos-kalivas-45552018a?trk=profile-badge" /></div>
+                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="athinastamatiou" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/athinastamatiou?trk=profile-badge"></a></div>
+                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="gerasimos-vallianatos" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/gerasimos-vallianatos?trk=profile-badge"></a></div>
                 </div>
-                <div class="mr-14"><a target="_blank" href="https://stackoverflow.com/users/9570494/konstantinos-kalivas"><img src="https://stackoverflow.com/users/flair/9570494.png?theme=dark" width="208" height="58" alt="profile for Konstantinos Kalivas at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Konstantinos Kalivas at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a></div>
             </div>
         </div>
     </div>
