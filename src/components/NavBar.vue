@@ -7,12 +7,8 @@
             <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
             <v-spacer />
 
-            <a href="https://github.com/pateras95" target="_blank">
+            <a href="https://github.com/pateras95/visualization-project" target="_blank">
                 <button class="github-button" />
-            </a>
-
-            <a href="https://www.linkedin.com/in/konstantinos-kalivas-45552018a" target="_blank">
-                <button class="linkedin-button" />
             </a>
         </v-app-bar>
 
