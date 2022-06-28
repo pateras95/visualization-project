@@ -7,14 +7,10 @@
                 <div class="mt-5">Bellow you will find all the informations about the members of the team</div>
             </div>
             <div class="badges-container">
-                <div class="row-badges-container">
-                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="konstantinos-kalivas-45552018a" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/konstantinos-kalivas-45552018a?trk=profile-badge"></a></div>
-                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="nikos-charitos-497774129" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/nikos-charitos-497774129?trk=profile-badge"></a></div>
-                </div>
-                <div class="row-badges-container">
-                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="athinastamatiou" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/athinastamatiou?trk=profile-badge"></a></div>
-                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="gerasimos-vallianatos" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/gerasimos-vallianatos?trk=profile-badge"></a></div>
-                </div>
+                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="gerasimos-vallianatos" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/gerasimos-vallianatos?trk=profile-badge"></a></div>
+                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="nikos-charitos-497774129" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/konstantinos-kalivas-45552018a?trk=profile-badge"></a></div>
+                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="athinastamatiou" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/athinastamatiou?trk=profile-badge"></a></div>
+                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="konstantinos-kalivas-45552018a" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/konstantinos-kalivas-45552018a?trk=profile-badge"></a></div>
             </div>
         </div>
     </div>
@@ -45,6 +41,7 @@
 .row-badges-container{
     display: flex;
     flex-direction: row;
+
     flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 20px;
@@ -55,15 +52,14 @@
 
 .badges-container{
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
-    align-items:center;
 }
- 
+
 .about-me-container{
-    width: 500px;
+    max-width: 500px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
+    margin-bottom: 20px;
 }
 
 
@@ -75,6 +71,10 @@
 @media only screen and (max-width: 700px) {
     .skills-container {
         flex-wrap: wrap;
+    }
+
+    .badges-container {
+        flex-direction: column;
     }
 }
 
