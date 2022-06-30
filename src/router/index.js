@@ -8,27 +8,33 @@ const router = new VueRouter({
     mode: 'history',
     base: vueConfig.publicPath,
     routes: [{
-        path: '/',
-        name: 'Home',
-        component: Home
-    }, {
-        path: '/about-me',
-        name: 'AboutMe',
-        component: () =>
-            import ('@/components/routes/AboutMeRoute.vue')
-    },
-    {
-        path: '/data-visualization',
-        name: 'DataVisualization',
-        component: () =>
-            import ('@/components/routes/DataVisualizationRoute.vue')
-    },
-    {
-        path: '/resume',
-        name: 'Resume',
-        component: () =>
-            import ('@/components/routes/ResumeRoute.vue')
-    }
+            path: '/',
+            name: 'Home',
+            component: Home
+        }, {
+            path: '/about-me',
+            name: 'AboutMe',
+            component: () =>
+                import ('@/components/routes/AboutMeRoute.vue')
+        },
+        {
+            path: '/data-visualization',
+            name: 'DataVisualization',
+            component: () =>
+                import ('@/components/routes/DataVisualizationRoute.vue')
+        },
+        {
+            path: '/data-visualization-2',
+            name: 'DataVisualization2',
+            component: () =>
+                import ('@/components/routes/SecondDataVisualizationRoute.vue')
+        },
+        {
+            path: '/resume',
+            name: 'Resume',
+            component: () =>
+                import ('@/components/routes/ResumeRoute.vue')
+        }
     ]
 })
 

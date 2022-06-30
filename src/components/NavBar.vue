@@ -51,7 +51,12 @@
                     </router-link>
                     <router-link to="/data-visualization" style="text-decoration: none; color: inherit;">
                         <v-list-item class="nav-bar-text">
-                            <v-list-item-title><v-icon class="mr-5">mdi-chart-histogram</v-icon>Data Visualization</v-list-item-title>
+                            <v-list-item-title><v-icon class="mr-5">mdi-chart-histogram</v-icon>Parents & Students</v-list-item-title>
+                        </v-list-item>
+                    </router-link>
+                    <router-link to="/data-visualization-2" style="text-decoration: none; color: inherit;">
+                        <v-list-item class="nav-bar-text">
+                            <v-list-item-title><v-icon class="mr-5">mdi-chart-histogram</v-icon>Educational Authorities</v-list-item-title>
                         </v-list-item>
                     </router-link>
                 </v-list-item-group>
