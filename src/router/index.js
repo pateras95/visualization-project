@@ -30,6 +30,12 @@ const router = new VueRouter({
                 import ('@/components/routes/SecondDataVisualizationRoute.vue')
         },
         {
+            path: '/data-visualization-3',
+            name: 'DataVisualization3',
+            component: () =>
+                import ('@/components/routes/ThirdDataVisualizationRoute.vue')
+        },
+        {
             path: '/resume',
             name: 'Resume',
             component: () =>
