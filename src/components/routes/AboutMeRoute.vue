@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="outer-container">
         <div class="container">
             <div class="about-me-container">
                 <div class="header-text">Project Team Developers</div>
@@ -28,8 +28,14 @@
 </script>
 
 <style scoped>
+.outer-container{
+    background: url('~@/assets/orange-yellow-minimal-paint-white.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
 .container{
-    margin-top: 30px;
+    padding-top: 30px;
     flex-direction: column;
     display: flex;
     justify-content: space-evenly;

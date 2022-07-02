@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div clas>
         <v-app-bar
             color="accent-4"
             dark
@@ -16,10 +16,11 @@
             v-model="drawer"
             absolute
             temporary
+            class="outer-container"
         >
             <template v-slot:prepend>
                 <div class="nav-top-container">
-                    <img class="avatar-img" src="@/assets/data-visualization.png">
+                    <img class="avatar-img" src="@/assets/uoa_logo.png">
                     <div class="mt-3">Visualization</div>
                     <dir class="mt-n1">Project</dir>
                 </div>
@@ -87,6 +88,13 @@
 </script>
 
 <style scoped>
+
+.outer-container{
+    background: url('~@/assets/orange-yellow-minimal-paint-white.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
 .github-button{
     background: url("../assets/github-box.png") no-repeat scroll 0 0 transparent;
     cursor: pointer;
@@ -120,8 +128,9 @@
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    font-weight: 400;
-    font-size: 17px;
+    font-weight: 700;
+    font-size: 20x;
+    line-height: 22px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 

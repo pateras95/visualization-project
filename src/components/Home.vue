@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper">
+    <div class="outer-container">
         <div class="header-text">
             Video Presentation
         </div>
@@ -23,8 +23,14 @@
 
 <style lang="scss" scoped>
 
+.outer-container{
+    background: url('~@/assets/orange-yellow-minimal-paint-white.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
 .header-text{
-    margin-top: 30px;
+    padding-top: 30px;
     font-size: 25px;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
