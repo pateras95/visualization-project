@@ -29,6 +29,7 @@
 
 .header-text{
     padding-top: 30px;
+    margin-bottom: 25px;
     font-size: 25px;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

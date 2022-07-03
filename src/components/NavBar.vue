@@ -1,8 +1,8 @@
 <template>
     <div clas>
         <v-app-bar
+            class="outer-container-top"
             color="accent-4"
-            dark
         >
             <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
             <v-spacer />
@@ -10,6 +10,7 @@
             <a href="https://github.com/pateras95/visualization-project" target="_blank">
                 <button class="github-button" />
             </a>
+            <div class="fix-color"/>
         </v-app-bar>
 
         <v-navigation-drawer
@@ -89,6 +90,20 @@
 
 <style scoped>
 
+.outer-container-top{
+    background: url('~@/assets/orange-yellow-minimal-paint-white.jpg');
+    background-size:cover;
+    background-position: -31px 0px;
+    position: relative;
+}
+
+.fix-color{
+    width: 50px;
+    height: 64px;
+    margin-right: -20px;
+    background: #DF7F49;
+}
+
 .outer-container{
     background: url('~@/assets/orange-yellow-minimal-paint-white.jpg');
     background-size: cover;
@@ -124,6 +139,7 @@
 
 .nav-top-container{
     margin-top: 15px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
