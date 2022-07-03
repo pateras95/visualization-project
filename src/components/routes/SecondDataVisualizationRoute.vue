@@ -49,7 +49,7 @@
 .iframe-container{
     margin: 0 auto;
     text-align: center;
-    width: 1210px;
+    width: 1700px;
 }
 
 .main-container{

@@ -2,9 +2,6 @@
     <div class="outer-container">
         <div class="header-text">Students Assess Influence</div>
         <div class="main-container">
-            <div class="description-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique sodales lectus vitae vulputate. In augue libero, molestie vel orci ut, porta lacinia lacus. Nullam euismod, metus nec consectetur sagittis, tortor ligula rutrum ex, nec sollicitudin est tellus quis purus. Aliquam varius vestibulum justo, quis feugiat massa. Sed et efficitur tellus. Fusce non ante vitae diam dapibus ullamcorper a vitae nulla. Pellentesque in eros tempor, finibus dui sed, semper tellus. Ut tristique nec mi nec condimentum. Sed sit amet viverra nibh, et interdum velit. Nam mollis, enim in convallis placerat, ante mi malesuada ex, non ultrices urna lectus nec justo. Aenean ac imperdiet nulla. Mauris tincidunt eu tellus sed egestas. Donec quam turpis, tincidunt vel lacinia ac, imperdiet et tellus. Integer sit amet varius diam.
-            </div>
             <div class="iframe-container">
                 <iframe src="https://public.tableau.com/views/e-learning_16566918852420/Dashboard3?:language=en-US&publish=yes:display_count=n&:showVizHome=n&:origin=viz_share_link:embed=yes" width="100%" height="1080"></iframe>
             </div>
@@ -52,7 +49,7 @@
 .iframe-container{
     margin: 0 auto;
     text-align: center;
-    width: 1210px;
+    width: 1700px;
 }
 
 .main-container{

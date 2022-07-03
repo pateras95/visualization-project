@@ -3,8 +3,8 @@
         <div class="container">
             <div class="about-me-container">
                 <div class="header-text">Project Team Developers</div>
-                <div class="mt-5">Hi There 👋</div>
-                <div class="mt-5">Bellow you will find all the informations about the members of the team</div>
+                <div class="mt-5 simple-text">Hi There 👋</div>
+                <div class="mt-5 simple-text">Bellow you will find all the informations about the members of the team</div>
             </div>
             <div class="badges-container">
                 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="gerasimos-vallianatos" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://gr.linkedin.com/in/gerasimos-vallianatos?trk=profile-badge"></a></div>
@@ -44,6 +44,14 @@
     /* row-gap: 20px; */
 }
 
+.simple-text{
+    font-size: 22px;
+    line-height: 24px;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
 .row-badges-container{
     display: flex;
     flex-direction: row;
@@ -58,6 +66,8 @@
 
 .badges-container{
     display: flex;
+    column-gap: 20px;
+    align-items: center;
     justify-content: space-evenly;
 }
 

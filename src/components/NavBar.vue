@@ -129,7 +129,7 @@
     flex-direction: column;
     align-items: center;
     font-weight: 700;
-    font-size: 20x;
+    font-size: 20px;
     line-height: 22px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
