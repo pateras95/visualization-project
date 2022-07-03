@@ -3,7 +3,7 @@
         <div class="header-text">Students Assess Influence</div>
         <div class="main-container">
             <div class="iframe-container">
-                <iframe src="https://public.tableau.com/views/e-learning_16566918852420/Dashboard3?:language=en-US&publish=yes:display_count=n&:showVizHome=n&:origin=viz_share_link:embed=yes" width="100%" height="1080"></iframe>
+                <iframe class="custom-iframe" src="https://public.tableau.com/views/e-learning_16566918852420/Dashboard3?:language=en-US&publish=yes:display_count=n&:showVizHome=n&:origin=viz_share_link:embed=yes" width="100%" height="1080"></iframe>
             </div>
         </div>
     </div>
@@ -21,6 +21,10 @@
     background: url('~@/assets/orange-yellow-minimal-paint-white.jpg');
     background-size: cover;
     height: 100%;
+}
+
+.custom-iframe{
+    border:none;
 }
 
 .header-text{
