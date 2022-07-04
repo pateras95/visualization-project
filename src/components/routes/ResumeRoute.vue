@@ -1,42 +1,102 @@
 <template>
-    <div>
-        <div class="header-text">Visualizing Women’s Economic Rights Around the World</div>
-        <div class="text-center">
-            <div class="simple-text">
-                Στο παρακάτω διάγραμμα φαίνεται σε απεικόνιση η κατανομή των κοινωνικών δικαιωμάτων των γυναίκων σε όλο
-                τον κόσμο. Μπορείτε με την χρήση της ροδέλας ή του PinchZoom να να κάνετε Zoom στον χάρτη για παρατήρηση
-                περαιτέρω πληροφοριών.
+    <div class="outer-container">
+        <div class="container">
+            <div class="about-me-container">
+                <div class="header-text">Datasets ( .excel Files )</div>
+                <div class="mt-5 simple-text">Hi There 👋</div>
+                <div class="mt-5 simple-text">Bellow you can download all the datasets that we used for the project</div>
             </div>
-            <pdf style="width:75%; margin: 0 auto;" src="Konstantinoss-Resume.pdf" />
         </div>
     </div>
 </template>
 
 <script>
-    import pdf from 'vue-pdf'
     export default {
-        name: "Resume",
-        components: {
-            pdf
-        }
+        name: "Resume"
     }
 </script>
 
 <style scoped>
+.outer-container{
+    background: url('~@/assets/orange-yellow-minimal-paint-white.jpg');
+    background-size: cover;
+    height: 100%;
+}
 
-.header-text{
-    margin-top: 30px;
-    font-size: 25px;
+.badge-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    padding-top: 30px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* row-gap: 20px; */
+}
+
+.simple-text{
+    font-size: 22px;
+    line-height: 24px;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.simple-text-badge{
+    font-size: 20px;
+    line-height: 22px;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
 }
 
-.simple-text{
-    margin: 0 auto;
-    width: 75%;
+.row-badges-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.badges-container{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-me-container{
+    max-width: 500px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
+    margin-bottom: 20px;
 }
+
+
+.header-text{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 700px) {
+    .skills-container {
+        flex-wrap: wrap;
+    }
+
+    .badges-container {
+        flex-direction: column;
+    }
+}
+
 
 </style>

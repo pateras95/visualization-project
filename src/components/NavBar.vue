@@ -1,5 +1,5 @@
 <template>
-    <div clas>
+    <div>
         <v-app-bar
             class="outer-container-top"
             color="accent-4"
@@ -17,7 +17,7 @@
             v-model="drawer"
             absolute
             temporary
-            class="outer-container"
+            class="outer-container custom-width"
         >
             <template v-slot:prepend>
                 <div class="nav-top-container">
@@ -53,17 +53,17 @@
                     </router-link>
                     <router-link to="/data-visualization" style="text-decoration: none; color: inherit;">
                         <v-list-item class="nav-bar-text">
-                            <v-list-item-title><v-icon class="mr-5">mdi-chart-histogram</v-icon>Parents & Students</v-list-item-title>
+                            <v-list-item-title><v-icon class="mr-5">mdi-chart-histogram</v-icon>Experience with e-learning</v-list-item-title>
                         </v-list-item>
                     </router-link>
                     <router-link to="/data-visualization-2" style="text-decoration: none; color: inherit;">
                         <v-list-item class="nav-bar-text">
-                            <v-list-item-title><v-icon class="mr-5">mdi-chart-histogram</v-icon>Educational Authorities</v-list-item-title>
+                            <v-list-item-title><v-icon class="mr-5">mdi-chart-histogram</v-icon>Response to influence</v-list-item-title>
                         </v-list-item>
                     </router-link>
                     <router-link to="/data-visualization-3" style="text-decoration: none; color: inherit;">
                         <v-list-item class="nav-bar-text">
-                            <v-list-item-title><v-icon class="mr-5">mdi-chart-histogram</v-icon>Students Assess Influence</v-list-item-title>
+                            <v-list-item-title><v-icon class="mr-5">mdi-chart-histogram</v-icon>E-learning on World</v-list-item-title>
                         </v-list-item>
                     </router-link>
                 </v-list-item-group>
@@ -132,21 +132,21 @@
 }
 
 .nav-bar-text {
-    margin-left: 50px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 700;
+    margin-left: 5px !important;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-weight: 700 !important;
 }
 
 .nav-top-container{
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 15px !important;
+    margin-bottom: 20px !important;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 22px;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 22px !important;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
