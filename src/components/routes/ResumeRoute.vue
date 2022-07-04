@@ -7,6 +7,22 @@
                 <div class="mt-5 simple-text">Bellow you can download all the datasets that we used for the project</div>
             </div>
         </div>
+        <div class="xlsx-container">
+            <div class="download-text">
+                Students Adaptability Level in Online Education
+            </div>
+            <div>
+                <a href="https://www.kaggle.com/datasets/aacd0960cb0636ad956dcf1a07cf7a58bc7d621e3813a8ed8ef8b4f25dd837c8?resource=download" target="_blank"><button class="dn-button">Download</button></a>
+            </div>
+        </div>
+        <div class="xlsx-container">
+            <div class="download-text">
+                Tracking the situation of children during COVID-19
+            </div>
+            <div>
+                <a href="https://data.unicef.org/resources/rapid-situation-tracking-covid-19-socioeconomic-impacts-data-viz/" target="_blank"><button class="dn-button">Download</button></a>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -23,14 +39,6 @@
     height: 100%;
 }
 
-.badge-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-
 .container{
     padding-top: 30px;
     flex-direction: column;
@@ -41,6 +49,20 @@
     /* row-gap: 20px; */
 }
 
+.dn-button{
+    font-size: 22px;
+    line-height: 24px;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    background: #E0814B;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
 .simple-text{
     font-size: 22px;
     line-height: 24px;
@@ -49,30 +71,10 @@
     font-weight: 500;
 }
 
-.simple-text-badge{
-    font-size: 20px;
-    line-height: 22px;
-    text-align: center;
+.download-text{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
     font-weight: 700;
-}
-
-.row-badges-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 20px;
-    row-gap: 20px;
-    margin: 20px;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.badges-container{
-    display: flex;
-    column-gap: 20px;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 .about-me-container{
@@ -82,21 +84,19 @@
     margin-bottom: 20px;
 }
 
-
 .header-text{
     font-size: 25px;
     font-weight: 700;
 }
 
-@media only screen and (max-width: 700px) {
-    .skills-container {
-        flex-wrap: wrap;
-    }
-
-    .badges-container {
-        flex-direction: column;
-    }
+.xlsx-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    column-gap: 50px;
+    row-gap: 10px;
 }
-
 
 </style>
