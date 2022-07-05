@@ -3,7 +3,7 @@
         <div class="header-text">E-learning on World</div>
         <div class="main-container">
             <div class="iframe-container">
-                <iframe class="custom-iframe" src="https://public.tableau.com/shared/2SGF74WWD?:language=en-US&publish=yes:display_count=n&:showVizHome=n&:origin=viz_share_link:embed=yes" width="100%" height="1080"></iframe>
+                <iframe class="custom-iframe" src="https://public.tableau.com/views/RemoteLearning-Age18-24/Dashboard1?:language=en-US&publish=yes:display_count=n&:showVizHome=n&:origin=viz_share_link:embed=yes" width="100%" height="1080"></iframe>
             </div>
         </div>
     </div>
