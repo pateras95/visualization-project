@@ -41,16 +41,6 @@
                             <v-list-item-title><v-icon class="mr-5">mdi-home</v-icon>Home</v-list-item-title>
                         </v-list-item>
                     </router-link>
-                    <router-link to="/about-me" style="text-decoration: none; color: inherit;">
-                        <v-list-item class="nav-bar-text">
-                            <v-list-item-title><v-icon class="mr-5">mdi-account-multiple</v-icon>About The Team</v-list-item-title>
-                        </v-list-item>
-                    </router-link>
-                    <router-link to="/resume" style="text-decoration: none; color: inherit;">
-                        <v-list-item class="nav-bar-text">
-                            <v-list-item-title><v-icon class="mr-5">mdi-folder-download</v-icon>Datasets.csv </v-list-item-title>
-                        </v-list-item>
-                    </router-link>
                     <router-link to="/data-visualization" style="text-decoration: none; color: inherit;">
                         <v-list-item class="nav-bar-text">
                             <v-list-item-title><v-icon class="mr-5">mdi-chart-histogram</v-icon>Experience with e-learning</v-list-item-title>
@@ -63,7 +53,17 @@
                     </router-link>
                     <router-link to="/data-visualization-3" style="text-decoration: none; color: inherit;">
                         <v-list-item class="nav-bar-text">
-                            <v-list-item-title><v-icon class="mr-5">mdi-chart-histogram</v-icon>E-learning on World</v-list-item-title>
+                            <v-list-item-title><v-icon class="mr-5">mdi-chart-histogram</v-icon>E-learning around the world</v-list-item-title>
+                        </v-list-item>
+                    </router-link>
+                    <router-link to="/about-me" style="text-decoration: none; color: inherit;">
+                        <v-list-item class="nav-bar-text">
+                            <v-list-item-title><v-icon class="mr-5">mdi-account-multiple</v-icon>About The Team</v-list-item-title>
+                        </v-list-item>
+                    </router-link>
+                    <router-link to="/resume" style="text-decoration: none; color: inherit;">
+                        <v-list-item class="nav-bar-text">
+                            <v-list-item-title><v-icon class="mr-5">mdi-folder-download</v-icon>Datasets.csv </v-list-item-title>
                         </v-list-item>
                     </router-link>
                 </v-list-item-group>

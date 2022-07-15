@@ -23,6 +23,14 @@
                 <a href="https://data.unicef.org/resources/rapid-situation-tracking-covid-19-socioeconomic-impacts-data-viz/" target="_blank"><button class="dn-button">Download</button></a>
             </div>
         </div>
+        <div class="xlsx-container">
+            <div class="download-text">
+                Acceptance of e-learning System among Universities Students' under the COVID-19 Pandemic Conditions
+            </div>
+            <div>
+                <a href="https://data.mendeley.com/datasets/vgvkh4fr8x/1" target="_blank"><button class="dn-button">Download</button></a>
+            </div>
+        </div>
     </div>
 </template>
 
